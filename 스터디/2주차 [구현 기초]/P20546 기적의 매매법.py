@@ -13,20 +13,33 @@ def BNP (cash, stock_price) :
 
     return bnp_stock_cnt * stock_price[-1] + cash
 
-def TIMMING (cash, stock_price) :
+def TIMING (cash, stock_price) :
     timing_stock_cnt = 0
-    for i in range(13) :
-        print("")
+    for i in range(10) :
+        # 3일 연속 상승한다면,
+        if stock_price[i] < stock_price[i+1] < stock_price[i+2] :
+            # 4일차(i+3) 전량 매도
+            print(i, "전량 매도")
+        # 3일 연속 하락한다면,
+        if stock_price[i] > stock_price[i+1] > stock_price[i+2] :
+            # 4일차(i+3) 전량 매수
+            print(i, "전량 매수")
 
-    # 현재 소유한 주식의 가격이 3일째 상승한다면, 전량 매도한다. 
-    # 3일 연속 가격이 전일 대비 하락하는 주식은 다음날 무조건 가격이 상승한다고 가정한다. 
-    # 따라서 이러한 경향이 나타나면 즉시 주식을 전량 매수한다.
-
-
+    return timing_stock_cnt * stock_price[-1] + cash
+        
 
 cash = int(input())
 stock_price = list(map(int, input().split()))
+
+# 확인용
 print(BNP(cash, stock_price))
-print(TIMMING(cash, stock_price))
+print(TIMING(cash, stock_price))
+
+if BNP(cash, stock_price) > TIMING(cash, stock_price) :
+    print("BNP")
+elif BNP(cash, stock_price) < TIMING(cash, stock_price) :
+    print("TIMING")
+else :
+    print("SAMESAME")
 
 
