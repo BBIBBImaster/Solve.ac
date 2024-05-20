@@ -13,3 +13,4 @@ if __name__ == "__main__":
     k = int(input())
     info = [tuple(map(int, input().split())) for _ in range(k)]
     print(gears, k, info)
+    
