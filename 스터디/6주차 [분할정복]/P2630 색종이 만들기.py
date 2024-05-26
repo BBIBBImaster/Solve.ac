@@ -12,7 +12,6 @@ for i in range(n) :
 
 # 전부 같은 색인가 확인
 # 아니면? 쪼개기
-
 def count_paper(matrix, n) :
     white_count = 0
     blue_count = 0
