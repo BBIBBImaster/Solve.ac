@@ -21,9 +21,10 @@ def quad_tree(x, y, size) :
         quad_tree(x+half_size, y+half_size, half_size)
     ]
 
-    # 모든 부분이 동일한 경우
+    # 압축 가능한 경우 (모두 같을 경우)
     if parts[0] == parts[1] == parts[2] == parts[3] and len(parts[0]) == 1: 
         return parts[0]
+    # 압축 하지 못 할 경우
     else :
         return "(" + "".join(parts) + ")"
     
