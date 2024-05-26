@@ -26,7 +26,7 @@ def construct_segment(n):
             lcd[i][0] = v  # f
         if n in '2345689':
             lcd[s+1][i] = h  # g
-
+            
     return lcd
 
 
