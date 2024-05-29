@@ -1,3 +1,4 @@
+# 색종이 만들기
 import sys
 
 input = sys.stdin.readline
