@@ -15,7 +15,7 @@ num_list.sort()
 # 3. 이진 함수 탐색
 def binary_search(arr, n) :
     result = 0
-    left, right = 0, max(arr)
+    left, right = 1, max(arr)
 
     while left <= right :
         mid = (left + right) // 2
