@@ -31,7 +31,6 @@ def find_shortest(n, graph, v1, v2) :
 
   return min(path1, path2)
 
-
 if __name__ == "__main__" :
   input = sys.stdin.readline
   n, e = map(int, input().split())
