@@ -1,0 +1,1 @@
+{"name":"Local: P9568 덩치","url":"/Users/gangmuseong/Github/Solve.ac/스터디/9주차/P9568 덩치.py","tests":[{"id":1722673443991,"input":"5\n55 185\n58 183\n88 186\n60 175\n46 155","output":"2 2 1 2 5"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/Users/gangmuseong/Github/Solve.ac/스터디/9주차/P9568 덩치.py","group":"local","local":true}
