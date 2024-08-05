@@ -10,18 +10,44 @@ def create_graph(n, edges) :
   
   for edge in edges :
     v1, v2 = edge
-    graph[v1] = graph[v2]
-    graph[v2] = graph[v1]
+    graph[v1].append(v2)
+    graph[v2].append(v1)
+
+  for key in graph :
+    graph[key].sort()
 
   return graph
 
 def dfs(graph, start) :
-  return
+  visited = []
+  stack = [start]
 
-def bfs(n, m, v) :
-  return
+  while stack :
+    vertex = stack.pop()
+    if vertex not in visited :
+      visited.append(vertex)
+      stack.extend(reversed(graph[vertex]))
+
+  return visited
+
+def bfs(graph, start) :
+  visited = []
+  queue = deque([start])
+
+  while queue :
+    vertex = queue.popleft()
+    if vertex not in visited :
+      visited.append(vertex)
+      queue.extend(graph[vertex])
+
+  return visited
 
 if __name__ == "__main__" :
   input = sys.stdin.readline
   n, m, v = map(int, input().split())
   edges = [list(map(int, input().split())) for _ in range(m)]
+
+  graph = create_graph(n, edges)
+
+  print(*dfs(graph, v))
+  print(*bfs(graph, v))
