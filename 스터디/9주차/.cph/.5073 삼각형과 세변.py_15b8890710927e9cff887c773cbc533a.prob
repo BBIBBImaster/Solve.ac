@@ -1,0 +1,1 @@
+{"name":"Local: 5073 삼각형과 세변","url":"c:\\Github\\Solve.ac-main\\스터디\\9주차\\5073 삼각형과 세변.py","tests":[{"id":1722512943860,"input":"7 7 7\n6 5 4\n3 2 5\n6 2 6\n0 0 0","output":"Equilateral\nScalene\nInvalid\nIsosceles"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Github\\Solve.ac-main\\스터디\\9주차\\5073 삼각형과 세변.py","group":"local","local":true}
