@@ -10,4 +10,4 @@ def max_people(h, w, n, m) :
 if __name__ == "__main__" :
     input = sys.stdin.readline
     h, w, n, m = map(int, input().split())
-    print(max_people(h, w, n, m))
+    print(max_people(h,     w, n, m))
