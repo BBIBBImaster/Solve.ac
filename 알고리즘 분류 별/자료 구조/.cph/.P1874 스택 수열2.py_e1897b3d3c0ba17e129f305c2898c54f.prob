@@ -1,0 +1,1 @@
+{"name":"Local: P1874 스택 수열2","url":"c:\\Github\\Solve.ac-main\\알고리즘 분류 별\\자료 구조\\P1874 스택 수열2.py","tests":[{"id":1725003055294,"input":"8\n4\n3\n6\n8\n7\n5\n2\n1","output":"+\n+\n+\n+\n-\n-\n+\n+\n-\n+\n+\n-\n-\n-\n-\n-"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Github\\Solve.ac-main\\알고리즘 분류 별\\자료 구조\\P1874 스택 수열2.py","group":"local","local":true}
