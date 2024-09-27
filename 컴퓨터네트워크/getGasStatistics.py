@@ -8,12 +8,7 @@ import time
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
 # Etherscan API Endpoint 및 API 키
-url = 'https://api.etherscan.io/api'
-api_key = 'CFPZJXMWMR9PCM9B1RAB2BJUMXIYEQMJDE'
 
-# 텔레그램 API 토큰 및 사용자 chat_id
-TOKEN = 'your-telegram-token'
-CHAT_ID = 'your-chat-id'
 
 # 봇 객체 생성
 bot = telepot.Bot(TOKEN)

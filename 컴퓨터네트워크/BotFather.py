@@ -10,12 +10,7 @@ from apscheduler.schedulers.background import BackgroundScheduler
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
 # Etherscan API Endpoint 및 API 키
-url = 'https://api.etherscan.io/api'
-api_key = 'CFPZJXMWMR9PCM9B1RAB2BJUMXIYEQMJDE'
 
-# 텔레그램 API 토큰 및 사용자 chat_id
-TOKEN = '7600258423:AAHuzj4NUzmg2IMAN3MY0hiqSwJosTWxGf0'
-CHAT_ID = '5880689318' 
 
 # 봇 객체 생성
 bot = telepot.Bot(TOKEN)
