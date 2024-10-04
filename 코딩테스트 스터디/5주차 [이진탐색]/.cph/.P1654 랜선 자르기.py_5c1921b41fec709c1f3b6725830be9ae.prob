@@ -1,1 +1,0 @@
-{"name":"Local: P1654 랜선 자르기","url":"c:\\Github\\Solve.ac-main\\스터디\\5주차 [이진탐색]\\P1654 랜선 자르기.py","tests":[{"id":1716989543756,"input":"4 11\n802\n743\n457\n539","output":"200"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Github\\Solve.ac-main\\스터디\\5주차 [이진탐색]\\P1654 랜선 자르기.py","group":"local","local":true}
