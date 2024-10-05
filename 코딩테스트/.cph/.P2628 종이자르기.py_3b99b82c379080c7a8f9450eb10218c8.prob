@@ -1,0 +1,1 @@
+{"name":"Local: P2628 종이자르기","url":"/Users/gangmuseong/Github/Solve.ac/코딩테스트/P2628 종이자르기.py","tests":[{"id":1728045858464,"input":"10 8\n3\n0 3\n1 4\n0 2","output":"30"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/Users/gangmuseong/Github/Solve.ac/코딩테스트/P2628 종이자르기.py","group":"local","local":true}
